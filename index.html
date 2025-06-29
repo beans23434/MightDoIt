@@ -23,15 +23,20 @@
       <p>I might answer. I might not. Try your luck!</p>
     </section>
 
-  <section class="request-form-container">
-  <h3>Submit Your Request & Tip</h3>
+  <section class="cloud-form-container">
   <form id="questionForm">
-    <input type="text" id="requestInput" placeholder="Describe what you need..." required />
-    <input type="number" id="tipInput" placeholder="Tip amount $" min="0" step="1" required />
-    <button type="submit">Submit</button>
+    <div class="cloud big-cloud">
+      <textarea id="requestInput" placeholder="Describe what you need... (e.g., make me a logo of a bear riding a bike)" required></textarea>
+    </div>
+    <div class="cloud-row">
+      <div class="cloud small-cloud">
+        <input type="number" id="tipInput" placeholder="$ Tip" min="0" step="1" required />
+      </div>
+      <button type="submit" class="submit-cloud">Send Request</button>
+    </div>
   </form>
   <div id="response"></div>
-</section>
+  </section>
   </main>
 
   <footer>
