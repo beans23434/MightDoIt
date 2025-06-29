@@ -22,14 +22,15 @@
       <p>I might answer. I might not. Try your luck!</p>
     </section>
 
-    <section class="question-form">
-      <h3>Submit Your Question</h3>
-      <form id="questionForm">
-        <input type="text" id="questionInput" placeholder="Type your question here..." required />
-        <button type="submit">Submit</button>
-      </form>
-      <div id="response"></div>
-    </section>
+  <section class="request-form-container">
+  <h3>Submit Your Request & Tip</h3>
+  <form id="questionForm">
+    <input type="text" id="requestInput" placeholder="Describe what you need..." required />
+    <input type="number" id="tipInput" placeholder="Tip amount $" min="0" step="1" required />
+    <button type="submit">Submit</button>
+  </form>
+  <div id="response"></div>
+</section>
   </main>
 
   <footer>
